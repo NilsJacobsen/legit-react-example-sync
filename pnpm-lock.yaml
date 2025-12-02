@@ -9,10 +9,10 @@ importers:
   .:
     dependencies:
       '@legit-sdk/core':
-        specifier: ^0.2.1
+        specifier: 0.2.1
         version: 0.2.1
       '@legit-sdk/react':
-        specifier: ^0.2.1
+        specifier: 0.2.1
         version: 0.2.1(react@19.2.0)
       diff-match-patch-ts:
         specifier: ^0.6.0

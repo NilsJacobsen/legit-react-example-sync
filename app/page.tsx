@@ -1,12 +1,7 @@
 'use client';
 
 import { LegitProvider, type LegitConfig } from "@legit-sdk/react";
-import { Suspense } from "react";
-import Editor from "./Editor";
-
-
-// Prevent static generation - this page uses browser-only APIs
-export const dynamic = 'force-dynamic';
+import Editor from "@/app/Editor";
 
 export default function Home() {
   const config: LegitConfig = {
@@ -16,10 +11,8 @@ export default function Home() {
   };
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <LegitProvider config={config}>
-        <Editor />
-      </LegitProvider>
-    </Suspense>
+    <LegitProvider config={config}>
+      <Editor />
+    </LegitProvider>
   );
 }

@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@legit-sdk/core':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.2.1
+        version: 0.2.1
       '@legit-sdk/react':
-        specifier: ^0.2.0
-        version: 0.2.0(react@19.2.0)
+        specifier: ^0.2.1
+        version: 0.2.1(react@19.2.0)
       diff-match-patch-ts:
         specifier: ^0.6.0
         version: 0.6.0
@@ -392,11 +392,11 @@ packages:
     peerDependencies:
       tslib: '2'
 
-  '@legit-sdk/core@0.2.0':
-    resolution: {integrity: sha512-88P1SQ0oxh4S4jN76rOdNQ1DDwOJGkmLBLT3KbKyuTauQXn0EsnXMAvisFYOf2YD2Io+DQ9LImKzZbfwRF8+iA==}
+  '@legit-sdk/core@0.2.1':
+    resolution: {integrity: sha512-Idpv32EZNk494qsdcgKz14GYsUZVXyjm2+UV0Sg5oatWmOmBuHwg2mZOTju5fEi1eH5wLVZV/kiGI2KSKIJWZA==}
 
-  '@legit-sdk/react@0.2.0':
-    resolution: {integrity: sha512-XpHOJ/WZtd78AqEKiSI09ncdqWDG4XM547rRlBXPSJjmSLsTTrHA9ZPYlJ1uomgrTACvAVwJI5w5I+Je0LJEfQ==}
+  '@legit-sdk/react@0.2.1':
+    resolution: {integrity: sha512-rVZgAP6w7Rne1Oow4h3mdisScaaUakDIKMpaxtLSTCGBZIVCRvfMfHtjPZcBxQB2BtYe0CKFrQTw/J+1ddM+Fg==}
     peerDependencies:
       react: '>=18'
 
@@ -2437,16 +2437,16 @@ snapshots:
       '@jsonjoy.com/codegen': 1.0.0(tslib@2.8.1)
       tslib: 2.8.1
 
-  '@legit-sdk/core@0.2.0':
+  '@legit-sdk/core@0.2.1':
     dependencies:
       ignore: 7.0.5
       isomorphic-git: 1.35.1
       memfs: 4.51.1
       typescript: 5.9.3
 
-  '@legit-sdk/react@0.2.0(react@19.2.0)':
+  '@legit-sdk/react@0.2.1(react@19.2.0)':
     dependencies:
-      '@legit-sdk/core': 0.2.0
+      '@legit-sdk/core': 0.2.1
       react: 19.2.0
 
   '@napi-rs/wasm-runtime@0.2.12':

@@ -10,8 +10,8 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@legit-sdk/core": "^0.2.0",
-    "@legit-sdk/react": "^0.2.0",
+    "@legit-sdk/core": "^0.2.1",
+    "@legit-sdk/react": "^0.2.1",
     "diff-match-patch-ts": "^0.6.0",
     "isomorphic-git": "^1.34.0",
     "memfs": "^4.49.0",

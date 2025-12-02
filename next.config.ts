@@ -7,13 +7,9 @@ const nextConfig: NextConfig = {
   transpilePackages: ['@legit-sdk/core', '@legit-sdk/react'],
 
   // Turbopack configuration (Next.js 16 uses Turbopack for builds by default)
-  // Using installed npm packages from node_modules
   turbopack: {
     resolveExtensions: ['.tsx', '.ts', '.jsx', '.js', '.mjs', '.json'],
   },
-
-  // Webpack configuration (for dev with --webpack flag)
-  // Using installed npm packages from node_modules
   webpack: (config, { isServer, webpack }) => {
 
     // Handle TypeScript files with .js extensions in imports
